@@ -1,0 +1,306 @@
+{
+  "interchanges": [
+    {
+      "ISA_01_AuthorizationQualifier": "00",
+      "ISA_02_AuthorizationInformation": "          ",
+      "ISA_03_SecurityQualifier": "00",
+      "ISA_04_SecurityInformation": "          ",
+      "ISA_05_SenderQualifier": "ZZ",
+      "ISA_06_SenderId": "123456789012345",
+      "ISA_07_ReceiverQualifier": "ZZ",
+      "ISA_08_ReceiverId": "123456789012346",
+      "ISA_09_Date": "061015",
+      "ISA_10_Time": "1705",
+      "ISA_11_RepetitionSeparator": ">",
+      "ISA_12_Version": "00501",
+      "ISA_13_InterchangeControlNumber": "000010216",
+      "ISA_14_AcknowledgmentRequested": "0",
+      "ISA_15_TestIndicator": "T",
+      "functional_groups": [
+        {
+          "GS_01_FunctionalIdentifierCode": "HC",
+          "GS_02_ApplicationSenderCode": "1234567890",
+          "GS_03_ApplicationReceiverCode": "9876543210",
+          "GS_04_Date": "20061015",
+          "GS_05_Time": "1705",
+          "GS_06_GroupControlNumber": "20213",
+          "GS_07_ResponsibleAgencyCode": "X",
+          "GS_08_Version": "005010X291",
+          "transactions": [
+            {
+              "ST_01_TransactionSetIdentifierCode": "837",
+              "ST_02_TransactionSetControlNumber": "112233",
+              "ST_03_ImplementationConventionReference": "005010X291",
+              "segments": [
+                {
+                  "BHT_01": "0019",
+                  "BHT_02": "00",
+                  "BHT_03": "16",
+                  "BHT_04": "20050326",
+                  "BHT_05": "1036",
+                  "BHT_06": "CH"
+                },
+                {
+                  "NM1-1000A_loop": [
+                    {
+                      "NM1_01": "41",
+                      "NM1_02": "2",
+                      "NM1_03": "XYZ WHEELCHAIRS INC",
+                      "NM1_08": "46",
+                      "NM1_09": "ABC55"
+                    },
+                    {
+                      "PER_01": "IC",
+                      "PER_02": "JANE",
+                      "PER_03": "TE",
+                      "PER_04": "2225551111"
+                    }
+                  ]
+                },
+                {
+                  "NM1-1000B_loop": [
+                    {
+                      "NM1_01": "40",
+                      "NM1_02": "2",
+                      "NM1_03": "DMERC CARRIER",
+                      "NM1_08": "46",
+                      "NM1_09": "99999"
+                    }
+                  ]
+                },
+                {
+                  "HL-2000A_loop": [
+                    {
+                      "HL_01": "1",
+                      "HL_03": "20",
+                      "HL_04": "1"
+                    },
+                    {
+                      "NM1-2010AA_loop": [
+                        {
+                          "NM1_01": "85",
+                          "NM1_02": "2",
+                          "NM1_03": "XYZ WHEELCHAIR INC",
+                          "NM1_08": "XX",
+                          "NM1_09": "7778889999"
+                        },
+                        {
+                          "N3_01": "1440 NORTH STREET"
+                        },
+                        {
+                          "N4_01": "LAFAYETTE",
+                          "N4_02": "IN",
+                          "N4_03": "47904"
+                        },
+                        {
+                          "REF_01": "EI",
+                          "REF_02": "123567989"
+                        },
+                        {
+                          "REF_01": "1G",
+                          "REF_02": "0426960001"
+                        }
+                      ]
+                    },
+                    {
+                      "HL-2000B_loop": [
+                        {
+                          "HL_01": "2",
+                          "HL_02": "1",
+                          "HL_03": "22",
+                          "HL_04": "0"
+                        },
+                        {
+                          "SBR_01": "P",
+                          "SBR_02": "18",
+                          "SBR_09": "MB"
+                        },
+                        {
+                          "PAT_07": "01",
+                          "PAT_08": "155"
+                        },
+                        {
+                          "NM1-2010BA_loop": [
+                            {
+                              "NM1_01": "IL",
+                              "NM1_02": "1",
+                              "NM1_03": "SMITH",
+                              "NM1_04": "JAMES",
+                              "NM1_08": "MI",
+                              "NM1_09": "987654321A"
+                            },
+                            {
+                              "N3_01": "12 MAIN ST"
+                            },
+                            {
+                              "N4_01": "FRANKFORT",
+                              "N4_02": "IN",
+                              "N4_03": "46209"
+                            },
+                            {
+                              "DMG_01": "D8",
+                              "DMG_02": "19201023",
+                              "DMG_03": "M"
+                            }
+                          ]
+                        },
+                        {
+                          "NM1-2010BB_loop": [
+                            {
+                              "NM1_01": "PR",
+                              "NM1_02": "2",
+                              "NM1_03": "DMERC CARRIER",
+                              "NM1_08": "PI",
+                              "NM1_09": "99999"
+                            }
+                          ]
+                        },
+                        {
+                          "CLM-2300_loop": [
+                            {
+                              "CLM_01": "SMI123",
+                              "CLM_02": "75",
+                              "CLM_05": {
+                                "CLM_05_01": "12",
+                                "CLM_05_02": "B",
+                                "CLM_05_03": "1"
+                              },
+                              "CLM_06": "Y",
+                              "CLM_07": "A",
+                              "CLM_08": "Y",
+                              "CLM_09": "Y",
+                              "CLM_19": "08"
+                            },
+                            {
+                              "HI_01": {
+                                "HI_01_01": "BK",
+                                "HI_01_02": "436"
+                              },
+                              "HI_02": {
+                                "HI_02_01": "BF",
+                                "HI_02_02": "3449"
+                              }
+                            },
+                            {
+                              "LX-2400_loop": [
+                                {
+                                  "LX_01": "1"
+                                },
+                                {
+                                  "SV1_01": {
+                                    "SV1_01_01": "HC",
+                                    "SV1_01_02": "K0001",
+                                    "SV1_01_03": "RR",
+                                    "SV1_01_04": "KH",
+                                    "SV1_01_05": "BR"
+                                  },
+                                  "SV1_02": "75",
+                                  "SV1_03": "UN",
+                                  "SV1_04": "1",
+                                  "SV1_07": {
+                                    "SV1_07_01": "1",
+                                    "SV1_07_02": "2"
+                                  }
+                                },
+                                {
+                                  "PWK_01": "CT",
+                                  "PWK_02": "AD"
+                                },
+                                {
+                                  "CR3_01": "I",
+                                  "CR3_02": "MO",
+                                  "CR3_03": "99"
+                                },
+                                {
+                                  "DTP_01": "463",
+                                  "DTP_02": "D8",
+                                  "DTP_03": "20040321"
+                                },
+                                {
+                                  "DTP_01": "461",
+                                  "DTP_02": "D8",
+                                  "DTP_03": "20050321"
+                                },
+                                {
+                                  "MEA_01": "TR",
+                                  "MEA_02": "HT",
+                                  "MEA_03": "70"
+                                },
+                                {
+                                  "NM1-2420_loop": [
+                                    {
+                                      "NM1_01": "DK",
+                                      "NM1_02": "1",
+                                      "NM1_03": "WILSON",
+                                      "NM1_04": "RANDALL",
+                                      "NM1_08": "XX",
+                                      "NM1_09": "1111155555"
+                                    },
+                                    {
+                                      "N3_01": "1226 WEST RAILROAD STREET"
+                                    },
+                                    {
+                                      "N4_01": "LAFAYETTE",
+                                      "N4_02": "IN",
+                                      "N4_03": "47905"
+                                    },
+                                    {
+                                      "PER_01": "IC",
+                                      "PER_02": "LEE",
+                                      "PER_03": "TE",
+                                      "PER_04": "7659259999"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "LQ-2440_loop": [
+                                    {
+                                      "LQ_01": "UT",
+                                      "LQ_02": "02.03B"
+                                    },
+                                    {
+                                      "FRM_01": "1",
+                                      "FRM_02": "Y"
+                                    },
+                                    {
+                                      "FRM_01": "2",
+                                      "FRM_02": "N"
+                                    },
+                                    {
+                                      "FRM_01": "3",
+                                      "FRM_02": "N"
+                                    },
+                                    {
+                                      "FRM_01": "4",
+                                      "FRM_02": "N"
+                                    },
+                                    {
+                                      "FRM_01": "5",
+                                      "FRM_03": "8"
+                                    },
+                                    {
+                                      "FRM_01": "8",
+                                      "FRM_02": "N"
+                                    },
+                                    {
+                                      "FRM_01": "9",
+                                      "FRM_02": "Y"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

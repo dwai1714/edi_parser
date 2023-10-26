@@ -1,0 +1,427 @@
+{
+  "interchanges": [
+    {
+      "ISA_01_AuthorizationQualifier": "00",
+      "ISA_02_AuthorizationInformation": "          ",
+      "ISA_03_SecurityQualifier": "00",
+      "ISA_04_SecurityInformation": "          ",
+      "ISA_05_SenderQualifier": "ZZ",
+      "ISA_06_SenderId": "NVMED          ",
+      "ISA_07_ReceiverQualifier": "ZZ",
+      "ISA_08_ReceiverId": "99999999       ",
+      "ISA_09_Date": "180613",
+      "ISA_10_Time": "1230",
+      "ISA_11_RepetitionSeparator": "^",
+      "ISA_12_Version": "00501",
+      "ISA_13_InterchangeControlNumber": "100000300",
+      "ISA_14_AcknowledgmentRequested": "0",
+      "ISA_15_TestIndicator": "P",
+      "functional_groups": [
+        {
+          "GS_01_FunctionalIdentifierCode": "HP",
+          "GS_02_ApplicationSenderCode": "NVMED",
+          "GS_03_ApplicationReceiverCode": "99999999",
+          "GS_04_Date": "20180613",
+          "GS_05_Time": "123021",
+          "GS_06_GroupControlNumber": "100000300",
+          "GS_07_ResponsibleAgencyCode": "X",
+          "GS_08_Version": "005010X221A1",
+          "transactions": [
+            {
+              "ST_01_TransactionSetIdentifierCode": "835",
+              "ST_02_TransactionSetControlNumber": "0001",
+              "segments": [
+                {
+                  "BPR_01": "H",
+                  "BPR_02": "0",
+                  "BPR_03": "C",
+                  "BPR_04": "NON",
+                  "BPR_16": "20180615"
+                },
+                {
+                  "TRN_01": "1",
+                  "TRN_02": "100004762",
+                  "TRN_03": "1388600002"
+                },
+                {
+                  "DTM_01": "405",
+                  "DTM_02": "20180613"
+                },
+                {
+                  "N1-1000A_loop": [
+                    {
+                      "N1_01": "PR",
+                      "N1_02": "DIVISON OF HEALTH CARE FINANCING AND POLICY"
+                    },
+                    {
+                      "N3_01": "1100 East William Street Suite 101"
+                    },
+                    {
+                      "N4_01": "Carson",
+                      "N4_02": "NV",
+                      "N4_03": "89701"
+                    },
+                    {
+                      "PER_01": "BL",
+                      "PER_02": "Nevada Medicaid",
+                      "PER_03": "TE",
+                      "PER_04": "8776383472",
+                      "PER_05": "EM",
+                      "PER_06": "nvmmis.edisupport@dxc.com"
+                    }
+                  ]
+                },
+                {
+                  "N1-1000B_loop": [
+                    {
+                      "N1_01": "PE",
+                      "N1_02": "SUMMER",
+                      "N1_03": "XX",
+                      "N1_04": "6666666666"
+                    },
+                    {
+                      "REF_01": "TJ",
+                      "REF_02": "111111111"
+                    }
+                  ]
+                },
+                {
+                  "LX-2000_loop": [
+                    {
+                      "LX_01": "1"
+                    },
+                    {
+                      "CLP-2100_loop": [
+                        {
+                          "CLP_01": "77777777",
+                          "CLP_02": "4",
+                          "CLP_03": "72232",
+                          "CLP_04": "0",
+                          "CLP_06": "MC",
+                          "CLP_07": "6666666666666"
+                        },
+                        {
+                          "CAS_01": "OA",
+                          "CAS_02": "147",
+                          "CAS_03": "50016",
+                          "CAS_04": "0"
+                        },
+                        {
+                          "CAS_01": "CO",
+                          "CAS_02": "26",
+                          "CAS_03": "22216",
+                          "CAS_04": "0"
+                        },
+                        {
+                          "NM1_01": "QC",
+                          "NM1_02": "1",
+                          "NM1_03": "TOM",
+                          "NM1_04": "SMITH",
+                          "NM1_08": "MR",
+                          "NM1_09": "77777777777"
+                        },
+                        {
+                          "NM1_01": "74",
+                          "NM1_02": "1",
+                          "NM1_03": "ALAN",
+                          "NM1_04": "PARKER",
+                          "NM1_08": "C",
+                          "NM1_09": "88888888888"
+                        },
+                        {
+                          "NM1_01": "PR",
+                          "NM1_02": "2",
+                          "NM1_03": "PACIFI",
+                          "NM1_08": "PI",
+                          "NM1_09": "9999"
+                        },
+                        {
+                          "NM1_01": "GB",
+                          "NM1_02": "1",
+                          "NM1_03": "BARRY",
+                          "NM1_04": "CARRY",
+                          "NM1_08": "MI",
+                          "NM1_09": "666666666"
+                        },
+                        {
+                          "REF_01": "EA",
+                          "REF_02": "8888888"
+                        },
+                        {
+                          "DTM_01": "232",
+                          "DTM_02": "20180314"
+                        },
+                        {
+                          "DTM_01": "233",
+                          "DTM_02": "20180317"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ST_01_TransactionSetIdentifierCode": "835",
+              "ST_02_TransactionSetControlNumber": "0002",
+              "segments": [
+                {
+                  "BPR_01": "H",
+                  "BPR_02": "0",
+                  "BPR_03": "C",
+                  "BPR_04": "NON",
+                  "BPR_16": "20180615"
+                },
+                {
+                  "TRN_01": "1",
+                  "TRN_02": "100004765",
+                  "TRN_03": "5555555555"
+                },
+                {
+                  "DTM_01": "405",
+                  "DTM_02": "20180613"
+                },
+                {
+                  "N1-1000A_loop": [
+                    {
+                      "N1_01": "PR",
+                      "N1_02": "DIVISON OF HEALTH CARE FINANCING AND POLICY"
+                    },
+                    {
+                      "N3_01": "1100 East William Street Suite 101"
+                    },
+                    {
+                      "N4_01": "Carson",
+                      "N4_02": "NV",
+                      "N4_03": "89701"
+                    },
+                    {
+                      "PER_01": "BL",
+                      "PER_02": "Nevada Medicaid",
+                      "PER_03": "TE",
+                      "PER_04": "8776383472",
+                      "PER_05": "EM",
+                      "PER_06": "nvmmis.edisupport@dxc.com"
+                    }
+                  ]
+                },
+                {
+                  "N1-1000B_loop": [
+                    {
+                      "N1_01": "PE",
+                      "N1_02": "VALLEY",
+                      "N1_03": "XX",
+                      "N1_04": "6666666666"
+                    },
+                    {
+                      "REF_01": "TJ",
+                      "REF_02": "530824679"
+                    }
+                  ]
+                },
+                {
+                  "LX-2000_loop": [
+                    {
+                      "LX_01": "1"
+                    },
+                    {
+                      "CLP-2100_loop": [
+                        {
+                          "CLP_01": "77777778",
+                          "CLP_02": "2",
+                          "CLP_03": "3002",
+                          "CLP_04": "0",
+                          "CLP_06": "MC",
+                          "CLP_07": "6666666666667"
+                        },
+                        {
+                          "CAS_01": "OA",
+                          "CAS_02": "176",
+                          "CAS_03": "3002",
+                          "CAS_04": "0"
+                        },
+                        {
+                          "NM1_01": "QC",
+                          "NM1_02": "1",
+                          "NM1_03": "BOB",
+                          "NM1_04": "THOMAS",
+                          "NM1_08": "MR",
+                          "NM1_09": "55555555555"
+                        },
+                        {
+                          "NM1_01": "74",
+                          "NM1_02": "1",
+                          "NM1_03": "ALAN",
+                          "NM1_04": "JACKSON",
+                          "NM1_08": "C",
+                          "NM1_09": "66666666666"
+                        },
+                        {
+                          "REF_01": "EA",
+                          "REF_02": "8888888"
+                        },
+                        {
+                          "DTM_01": "232",
+                          "DTM_02": "20171001"
+                        },
+                        {
+                          "DTM_01": "233",
+                          "DTM_02": "20171002"
+                        }
+                      ]
+                    },
+                    {
+                      "CLP-2100_loop": [
+                        {
+                          "CLP_01": "77777779",
+                          "CLP_02": "4",
+                          "CLP_03": "41231.04",
+                          "CLP_04": "0",
+                          "CLP_06": "MC",
+                          "CLP_07": "6666666666668"
+                        },
+                        {
+                          "CAS_01": "OA",
+                          "CAS_02": "147",
+                          "CAS_03": "9365.04",
+                          "CAS_04": "0"
+                        },
+                        {
+                          "CAS_01": "CO",
+                          "CAS_02": "26",
+                          "CAS_03": "31866",
+                          "CAS_04": "0"
+                        },
+                        {
+                          "NM1_01": "QC",
+                          "NM1_02": "1",
+                          "NM1_03": "HELD",
+                          "NM1_04": "ALLEN",
+                          "NM1_08": "MR",
+                          "NM1_09": "77777777778"
+                        },
+                        {
+                          "NM1_01": "74",
+                          "NM1_02": "1",
+                          "NM1_03": "RYAN",
+                          "NM1_04": "LARRY",
+                          "NM1_08": "C",
+                          "NM1_09": "88888888889"
+                        },
+                        {
+                          "NM1_01": "PR",
+                          "NM1_02": "2",
+                          "NM1_03": "SENIOR",
+                          "NM1_08": "PI",
+                          "NM1_09": "8888"
+                        },
+                        {
+                          "NM1_01": "GB",
+                          "NM1_02": "1",
+                          "NM1_03": "MARY",
+                          "NM1_04": "JANE",
+                          "NM1_08": "MI",
+                          "NM1_09": "777777777"
+                        },
+                        {
+                          "REF_01": "EA",
+                          "REF_02": "6047740"
+                        },
+                        {
+                          "DTM_01": "232",
+                          "DTM_02": "20180220"
+                        },
+                        {
+                          "DTM_01": "233",
+                          "DTM_02": "20180221"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ST_01_TransactionSetIdentifierCode": "835",
+              "ST_02_TransactionSetControlNumber": "0003",
+              "segments": [
+                {
+                  "BPR_01": "I",
+                  "BPR_02": "1812.27",
+                  "BPR_03": "C",
+                  "BPR_04": "CHK",
+                  "BPR_16": "20180727"
+                },
+                {
+                  "TRN_01": "1",
+                  "TRN_02": "000012382",
+                  "TRN_03": "5555555555"
+                },
+                {
+                  "DTM_01": "405",
+                  "DTM_02": "20180720"
+                },
+                {
+                  "N1-1000A_loop": [
+                    {
+                      "N1_01": "PR",
+                      "N1_02": "DIVISON OF HEALTH CARE FINANCING AND POLICY"
+                    },
+                    {
+                      "N3_01": "1100 East William Street Suite 101"
+                    },
+                    {
+                      "N4_01": "Carson",
+                      "N4_02": "NV",
+                      "N4_03": "89701"
+                    },
+                    {
+                      "PER_01": "BL",
+                      "PER_02": "Nevada Medicaid",
+                      "PER_03": "TE",
+                      "PER_04": "8776383472",
+                      "PER_05": "EM",
+                      "PER_06": "nvmmis.edisupport@dxc.com"
+                    }
+                  ]
+                },
+                {
+                  "N1-1000B_loop": [
+                    {
+                      "N1_01": "PE",
+                      "N1_02": "SILVER",
+                      "N1_03": "XX",
+                      "N1_04": "7777777777"
+                    },
+                    {
+                      "REF_01": "TJ",
+                      "REF_02": "666666666"
+                    }
+                  ]
+                },
+                {
+                  "PLB_01": "8888888888",
+                  "PLB_02": "20181231",
+                  "PLB_03": {
+                    "PLB_03_01": "CT",
+                    "PLB_03_02": "888888888"
+                  },
+                  "PLB_04": "-1092.46",
+                  "PLB_05": {
+                    "PLB_05_01": "CT",
+                    "PLB_05_02": "888888888"
+                  },
+                  "PLB_06": "-719.81",
+                  "PLB_07": {
+                    "PLB_07_01": "CS",
+                    "PLB_07_02": "8888888888887"
+                  }
+                },
+                {
+                  "_181.5501": {
+                    "_181.5501_01": "CS",
+                    "_181.5501_02": "8888888888887"
+                  },
+                  "_181.5502": "181.55",
+                  "_181.5503": {
+                    

@@ -1,0 +1,111 @@
+{
+  "interchanges": [
+    {
+      "ISA_01_AuthorizationQualifier": "00",
+      "ISA_02_AuthorizationInformation": "          ",
+      "ISA_03_SecurityQualifier": "00",
+      "ISA_04_SecurityInformation": "          ",
+      "ISA_05_SenderQualifier": "ZZ",
+      "ISA_06_SenderId": "123456789012345",
+      "ISA_07_ReceiverQualifier": "ZZ",
+      "ISA_08_ReceiverId": "123456789012346",
+      "ISA_09_Date": "080503",
+      "ISA_10_Time": "1705",
+      "ISA_11_RepetitionSeparator": ">",
+      "ISA_12_Version": "00501",
+      "ISA_13_InterchangeControlNumber": "000010216",
+      "ISA_14_AcknowledgmentRequested": "0",
+      "ISA_15_TestIndicator": "T",
+      "functional_groups": [
+        {
+          "GS_01_FunctionalIdentifierCode": "HN",
+          "GS_02_ApplicationSenderCode": "1234567890",
+          "GS_03_ApplicationReceiverCode": "1234567891",
+          "GS_04_Date": "20080503",
+          "GS_05_Time": "1705",
+          "GS_06_GroupControlNumber": "20213",
+          "GS_07_ResponsibleAgencyCode": "X",
+          "GS_08_Version": "005010X364",
+          "transactions": [
+            {
+              "ST_01_TransactionSetIdentifierCode": "277",
+              "ST_02_TransactionSetControlNumber": "0002",
+              "ST_03_ImplementationConventionReference": "005010X364",
+              "segments": [
+                {
+                  "BHT_01": "0085",
+                  "BHT_02": "08",
+                  "BHT_03": "123456789",
+                  "BHT_04": "20190201",
+                  "BHT_05": "0405"
+                },
+                {
+                  "HL-2000A_loop": [
+                    {
+                      "HL_01": "1",
+                      "HL_03": "20",
+                      "HL_04": "1"
+                    },
+                    {
+                      "NM1-2100A_loop": [
+                        {
+                          "NM1_01": "ACV",
+                          "NM1_02": "2",
+                          "NM1_03": "STATE ENCOUNTER SYSTEM",
+                          "NM1_08": "46",
+                          "NM1_09": "STATE01"
+                        }
+                      ]
+                    },
+                    {
+                      "TRN-2200A_loop": [
+                        {
+                          "TRN_01": "1",
+                          "TRN_02": "20201312005S00002XYZABC"
+                        },
+                        {
+                          "DTP_01": "050",
+                          "DTP_02": "D8",
+                          "DTP_03": "20190131"
+                        },
+                        {
+                          "DTP_01": "009",
+                          "DTP_02": "D8",
+                          "DTP_03": "20190201"
+                        }
+                      ]
+                    },
+                    {
+                      "HL-2000B_loop": [
+                        {
+                          "HL_01": "2",
+                          "HL_02": "1",
+                          "HL_03": "21",
+                          "HL_04": "0"
+                        },
+                        {
+                          "NM1-2100B_loop": [
+                            {
+                              "NM1_01": "40",
+                              "NM1_02": "2",
+                              "NM1_03": "ABC PAYER",
+                              "NM1_08": "46",
+                              "NM1_09": "S00002"
+                            }
+                          ]
+                        },
+                        {
+                          "TRN-2200B_loop": [
+                            {
+                              "TRN_01": "2",
+                              "TRN_02": "2020131052389"
+                            },
+                            {
+                              "STC_01": {
+                                "STC_01_01": "DR03",
+                                "STC_01_02": "24",
+                                "STC_01_03": "41"
+                              },
+                              "STC_02": "20190201",
+                              "STC_03": "U",
+                              "STC_04": "800"

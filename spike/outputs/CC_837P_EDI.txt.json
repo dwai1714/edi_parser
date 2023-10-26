@@ -1,0 +1,265 @@
+{
+  "interchanges": [
+    {
+      "ISA_01_AuthorizationQualifier": "00",
+      "ISA_02_AuthorizationInformation": "          ",
+      "ISA_03_SecurityQualifier": "00",
+      "ISA_04_SecurityInformation": "          ",
+      "ISA_05_SenderQualifier": "01",
+      "ISA_06_SenderId": "030240928      ",
+      "ISA_07_ReceiverQualifier": "30",
+      "ISA_08_ReceiverId": "421406317      ",
+      "ISA_09_Date": "180807",
+      "ISA_10_Time": "1202",
+      "ISA_11_RepetitionSeparator": "^",
+      "ISA_12_Version": "00501",
+      "ISA_13_InterchangeControlNumber": "000001507",
+      "ISA_14_AcknowledgmentRequested": "0",
+      "ISA_15_TestIndicator": "T",
+      "functional_groups": [
+        {
+          "GS_01_FunctionalIdentifierCode": "HC",
+          "GS_02_ApplicationSenderCode": "030240928",
+          "GS_03_ApplicationReceiverCode": "421406317",
+          "GS_04_Date": "20180807",
+          "GS_05_Time": "12022605",
+          "GS_06_GroupControlNumber": "150700",
+          "GS_07_ResponsibleAgencyCode": "X",
+          "GS_08_Version": "005010X222A1",
+          "transactions": [
+            {
+              "ST_01_TransactionSetIdentifierCode": "837",
+              "ST_02_TransactionSetControlNumber": "0001",
+              "ST_03_ImplementationConventionReference": "005010X222A1",
+              "segments": [
+                {
+                  "BHT_01": "0019",
+                  "BHT_02": "00",
+                  "BHT_03": "421400001",
+                  "BHT_04": "20180807",
+                  "BHT_05": "12022607",
+                  "BHT_06": "CH"
+                },
+                {
+                  "NM1-1000A_loop": [
+                    {
+                      "NM1_01": "41",
+                      "NM1_02": "2",
+                      "NM1_03": "Centene Corporation",
+                      "NM1_08": "46",
+                      "NM1_09": "421406317"
+                    },
+                    {
+                      "PER_01": "IC",
+                      "PER_02": "Sambit",
+                      "PER_03": "TE",
+                      "PER_04": "3143202264",
+                      "PER_05": "EX",
+                      "PER_06": "8099264"
+                    }
+                  ]
+                },
+                {
+                  "NM1-1000B_loop": [
+                    {
+                      "NM1_01": "40",
+                      "NM1_02": "2",
+                      "NM1_03": "Centene Corporation",
+                      "NM1_08": "46",
+                      "NM1_09": "CENTENE001"
+                    }
+                  ]
+                },
+                {
+                  "HL-2000A_loop": [
+                    {
+                      "HL_01": "1",
+                      "HL_03": "20",
+                      "HL_04": "1"
+                    },
+                    {
+                      "PRV_01": "BI",
+                      "PRV_02": "PXC",
+                      "PRV_03": "261QM0801X"
+                    },
+                    {
+                      "NM1-2010AA_loop": [
+                        {
+                          "NM1_01": "85",
+                          "NM1_02": "2",
+                          "NM1_03": "Test Provider",
+                          "NM1_08": "XX",
+                          "NM1_09": "9999999999"
+                        },
+                        {
+                          "N3_01": "123 MAIN STREET"
+                        },
+                        {
+                          "N4_01": "WOODSTOCK",
+                          "N4_02": "IL",
+                          "N4_03": "600980000"
+                        },
+                        {
+                          "REF_01": "EI",
+                          "REF_02": "999999999"
+                        }
+                      ]
+                    },
+                    {
+                      "HL-2000B_loop": [
+                        {
+                          "HL_01": "2",
+                          "HL_02": "1",
+                          "HL_03": "22",
+                          "HL_04": "0"
+                        },
+                        {
+                          "SBR_01": "P",
+                          "SBR_02": "18",
+                          "SBR_04": "MEDICAID",
+                          "SBR_09": "MC"
+                        },
+                        {
+                          "NM1-2010BA_loop": [
+                            {
+                              "NM1_01": "IL",
+                              "NM1_02": "1",
+                              "NM1_03": "TEST",
+                              "NM1_04": "MEMBER",
+                              "NM1_08": "MI",
+                              "NM1_09": "U0000000001"
+                            },
+                            {
+                              "N3_01": "123 MAIN STREET"
+                            },
+                            {
+                              "N4_01": "Elgin",
+                              "N4_02": "IL",
+                              "N4_03": "601200001"
+                            },
+                            {
+                              "DMG_01": "D8",
+                              "DMG_02": "19960215",
+                              "DMG_03": "F"
+                            }
+                          ]
+                        },
+                        {
+                          "NM1-2010BB_loop": [
+                            {
+                              "NM1_01": "PR",
+                              "NM1_02": "2",
+                              "NM1_03": "CENTENE",
+                              "NM1_08": "PI",
+                              "NM1_09": "421406317"
+                            },
+                            {
+                              "N3_01": "123 MAIN STREET"
+                            },
+                            {
+                              "N4_01": "CITYNAME",
+                              "N4_02": "NA",
+                              "N4_03": "000000000"
+                            }
+                          ]
+                        },
+                        {
+                          "CLM-2300_loop": [
+                            {
+                              "CLM_01": "TD-R192ICE00094",
+                              "CLM_02": "600",
+                              "CLM_05": {
+                                "CLM_05_01": "11",
+                                "CLM_05_02": "B",
+                                "CLM_05_03": "1"
+                              },
+                              "CLM_06": "Y",
+                              "CLM_07": "A",
+                              "CLM_08": "Y",
+                              "CLM_09": "Y"
+                            },
+                            {
+                              "DTP_01": "435",
+                              "DTP_02": "D8",
+                              "DTP_03": "20180625"
+                            },
+                            {
+                              "HI_01": {
+                                "HI_01_01": "ABK",
+                                "HI_01_02": "F341"
+                              },
+                              "HI_02": {
+                                "HI_02_01": "ABF",
+                                "HI_02_02": "F4310"
+                              }
+                            },
+                            {
+                              "LX-2400_loop": [
+                                {
+                                  "LX_01": "1"
+                                },
+                                {
+                                  "SV1_01": {
+                                    "SV1_01_01": "HC",
+                                    "SV1_01_02": "H0004",
+                                    "SV1_01_03": "HO",
+                                    "SV1_01_04": "HQ"
+                                  },
+                                  "SV1_02": "300",
+                                  "SV1_03": "UN",
+                                  "SV1_04": "12",
+                                  "SV1_05": "11",
+                                  "SV1_07": {
+                                    "SV1_07_01": "1",
+                                    "SV1_07_02": "2"
+                                  }
+                                },
+                                {
+                                  "DTP_01": "472",
+                                  "DTP_02": "RD8",
+                                  "DTP_03": "20180625-20180625"
+                                }
+                              ]
+                            },
+                            {
+                              "LX-2400_loop": [
+                                {
+                                  "LX_01": "2"
+                                },
+                                {
+                                  "SV1_01": {
+                                    "SV1_01_01": "HC",
+                                    "SV1_01_02": "H0004",
+                                    "SV1_01_03": "HO",
+                                    "SV1_01_04": "HQ"
+                                  },
+                                  "SV1_02": "300",
+                                  "SV1_03": "UN",
+                                  "SV1_04": "12",
+                                  "SV1_05": "11",
+                                  "SV1_07": {
+                                    "SV1_07_01": "1",
+                                    "SV1_07_02": "2"
+                                  }
+                                },
+                                {
+                                  "DTP_01": "472",
+                                  "DTP_02": "RD8",
+                                  "DTP_03": "20180629-20180629"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
