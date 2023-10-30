@@ -38,6 +38,10 @@ def finalizer_function():
         head, tail = os.path.split(input_file)
         execute_transform(input_file,f"/Users/dc/edi_berryworks/spike/outputs/{tail}.json")
 
+def parse_single_file(input_file_name):
+    head, tail = os.path.split(input_file_name)
+    execute_transform(input_file_name, f"/Users/dc/edi_berryworks/spike/dc_output/{tail}.json")
+
 
 
 start_time = time.monotonic()
