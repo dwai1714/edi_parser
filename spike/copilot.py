@@ -39,18 +39,14 @@ def execute_transform(input_file_name, output_file_name):
     )
 
 def finalizer_function():
-    subprocess.Popen(
-        f"""rm -rf /Users/dc/edi_parser/spike/outputs/*""",
-        shell=True,
-        stdout=subprocess.PIPE,
-    )
+
     import glob
-    file_list = glob.iglob("/Users/dc/edi_parser/spike/inputs/data/ASC_X12/005010/Technical_Reports/Type_3/Finals/Examples" + '**/**', recursive=True)
+    file_list = glob.iglob("/Users/dc/edi_parser/spike/data_based_on_type/837P" + '**/**', recursive=True)
     file_list = [f for f in file_list if os.path.isfile(f)]
     print("Number of files " + str(len(file_list)))
     for input_file in file_list:
         head, tail = os.path.split(input_file)
-        execute_transform(input_file,f"/Users/dc/edi_parser/spike/outputs/{tail}.json")
+        execute_transform(input_file,f"/Users/dc/edi_parser/spike/outputs/837P/{tail}.json")
 
 def parse_single_file(input_file_name):
     head, tail = os.path.split(input_file_name)
@@ -58,6 +54,12 @@ def parse_single_file(input_file_name):
 
 if __name__ == "__main__":
     start_time = time.monotonic()
+    # subprocess.Popen(
+    #     f"""rm -rf /Users/dc/edi_parser/spike/outputs/277/*""",
+    #     shell=True,
+    #     stdout=subprocess.PIPE,
+    # )
+    # finalizer_function()
 
     spark = (
         SparkSession.builder.appName("redact")
@@ -69,6 +71,6 @@ if __name__ == "__main__":
         .getOrCreate()
     )
     spark.conf.set("spark.sql.shuffle.partitions", "200")
-    df = spark.read.json("/Users/dc/edi_parser/spike/outputs/X221-multiple-claims-single-check.edi.json")
+    df = spark.read.json("/Users/dc/edi_parser/spike/outputs/837P")
     df.printSchema()
     df.select("interchanges").show()
