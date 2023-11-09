@@ -1,15 +1,10 @@
 import functools
+import glob
 import json
 import os
 import subprocess
 import time
-import glob
-
-import pandas
-import psycopg2
-from pyspark.sql import SparkSession
-from pyspark.sql.functions import explode, split
-
+import shutil
 
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 def get_root_path():
@@ -80,6 +75,8 @@ def list_bad_files(dir_name):
             error_tup = validate_if_json(input_file)
             if error_tup is not None:
                 error_file_list.append(error_tup)
+                shutil.copy(input_file, f"{get_root_path()}/bad_json")
+
     return error_file_list
 
 
