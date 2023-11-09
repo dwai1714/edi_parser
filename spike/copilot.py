@@ -68,6 +68,9 @@ def validate_if_json(file_name):
 def list_bad_files(dir_name):
     error_file_list = []
     dir_list = read_directory(dir_name)
+    out_path = f"{get_root_path()}/bad_json"
+    if not os.path.exists(out_path):
+        os.makedirs(out_path)
     for dir in dir_list:
         file_list = glob.iglob(f"{get_root_path()}/outputs/{dir}" + '**/**', recursive=True)
         file_list = [f for f in file_list if os.path.isfile(f)]
