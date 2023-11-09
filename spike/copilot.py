@@ -78,7 +78,9 @@ def list_bad_files(dir_name):
             error_tup = validate_if_json(input_file)
             if error_tup is not None:
                 error_file_list.append(error_tup)
-                shutil.copy(input_file, f"{get_root_path()}/bad_json")
+                destination = os.path.join(get_root_path(), "bad_json", os.path.basename(os.path.dirname(input_file)))
+                os.makedirs(destination, exist_ok=True)
+                shutil.copy(input_file, destination)
 
     return error_file_list
 
