@@ -94,6 +94,14 @@ if __name__ == "__main__":
             stdout=subprocess.PIPE,
         ).stdout.read()
     )
+    bad_json_dir = f"{get_root_path()}/bad_json/"
+    print(
+        subprocess.Popen(
+            f"""rm -rf {bad_json_dir}/*.json""",
+            shell=True,
+            stdout=subprocess.PIPE,
+        ).stdout.read()
+    )
     finalizer_function()
     print(list_bad_files(dir_name))
     # validate_if_json("/Users/dc/edi_parser/spike/outputs/277/X364-example-two.edi.json")
