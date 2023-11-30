@@ -122,11 +122,12 @@ def loop_and_explode(dataframe, col_name):
 
 def create_dataframe(spark, path):
     input_df = spark.read.json(f"{get_root_path()}/{path}")
+    input_df.printSchema()
     output_df = input_df.withColumn("interchanges", explode("interchanges"))
     output_df = output_df.select("interchanges.*")
     output_df.show(1000, False)
 
-    array_list = ['functional_groups', 'transactions', 'segments', 'HL-2000A_loop', 'HL-2000B_loop', 'CLM-2300_loop',  ]
+    array_list = ['functional_groups'] #, 'transactions', 'segments', 'HL-2000A_loop', 'HL-2000B_loop', 'CLM-2300_loop',  ]
                   #,'LX-2400_loop' , 'NM1-2310A_loop','SBR-2320_loop', 'NM1-2330A_loop', 'NM1-2330B_loop', 'HL-2000C_loop', 'CLM-2300_loop', 'LX-2400_loop', 'NM1-2310A_loop', 'SBR-2320_loop', 'NM1-2330A_loop', 'NM1-2330B_loop', 'NM1-2010CA_loop', 'NM1-2010BA_loop', 'NM1-2010BB_loop', 'NM1-2010AA_loop', 'NM1-1000A_loop', 'NM1-1000B_loop']
 
     for array_elem in array_list:
